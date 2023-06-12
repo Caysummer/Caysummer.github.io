@@ -54,8 +54,8 @@ createPlatform(80, 300, 90, 10)
 createPlatform(200, 400, 90, 10)
 createPlatform(300, 500, 90, 10)
 
-createPlatform(400, 200, 90, 90)
-createPlatform(400, 100, 90, 100)    
+
+  
 createPlatform(485, 100, 90, 10)   
 createPlatform(400, 500, 90, 10)    
 createPlatform(500, 500, 90, 10)    
@@ -65,13 +65,18 @@ createPlatform(800, 500, 90, 10)
 createPlatform(900, 400, 90, 100) 
 createPlatform(900, 400, 90, 100)  
 createPlatform(1000, 300, 90, 200)  
-createPlatform(1100, 200, 90, 300)  
-createPlatform(1000, 50, 90, 10)       
+createPlatform(1100, 200, 90, 300)      
 createPlatform(800, 200, 90, 10)   
-createPlatform(700, 180, 90, 10)   
+createPlatform(700, 500, 90, 10)   
 createPlatform(900, 150, 90, 10) 
-createPlatform(1000, 200, 90, 10)     
-createPlatform(100, 200, 90, 10)   
+createPlatform(1000, 100, 90, 10)     
+createPlatform(100, 200, 90, 10)
+createPlatform(1200, 100, 90, 400)     
+createPlatform(600, 300, 90, 10) 
+createPlatform(300, 100, 90, 10) 
+createPlatform (400, 200, 90, 10) 
+createPlatform(500, 400, 90, 10) 
+createPlatform(1100, 200, 90, 300) 
 
 
 
@@ -96,10 +101,10 @@ createCollectable("max", 800, 78)
     // example usage: createCannon(side, position, delay, width, height)
 
 
-   // createCannon ("top", 500, 900)
-    //createCannon ("left", 100, 700)
-    //createCannon ("right", 200, 900)
-    //createCannon ("bottom", 700, 900)
+    createCannon ("top", 500, 900)
+    createCannon ("left", 100, 700)
+    createCannon ("right", 200, 900)
+    createCannon ("bottom", 700, 900)
 
 
 
